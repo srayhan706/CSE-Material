@@ -1,0 +1,235 @@
+26
+
+
+1 
+
+(a) There are two major views of software development lifecycle: activity-oriented view and entity-oriented view. Give the combined view and show how the activities are related with the deliverables.
+(b) Briefly describe the fundamental distinctions between the spiral model and the waterfall model.
+(c) When is evolutionary model preferred to waterfall model? Explain.
+
+
+2 
+(a) Justify the statement with proper reasoning "The requirement analysis document serves as a contract between development team and the customer".
+(b) Give two reasons of why it is a good idea to classify and separate functional requirements and non-functional requirements in a requirements specification document.
+(c) For the following description of a system, identify functional and non-functional requirements of the system:
+Suppose you want to develop software for an alarm clock. The clock shows the time of day. Using buttons, the user can set the hours and minutes fields individually, and choose between 12 and 24-hour display. It is possible to set one or two alarms. When an alarm fires, it will sound some noise. The user can turn it off, or choose to 'snooze'. If the user does not respond at all, the alarm will turn off itself after 2 minutes. 'Snoozing' means to turn off the sound, but the alarm will fire again after some minutes of delay. This 'snoozing time' is pre- adjustable.
+
+
+3 
+
+(a) Assume, you are going to implement an application that will handle the process of assigning the driving license to the people. Two types of people will use this application, the admins and the general people. The features from the general people's side will require logging credentials, account authentication, a basic information-providing panel with an update feature, the ability to give online exams, a panel to apply for the license, a panel to receive important notifications, and many more. Similarly, the admins will have features to verify an account with his/her national id, will have features to set questionnaires for an online exam alongside marking assistance. The admins will also be able to send notifications regarding many aspects to the people who applied for the license and finally a panel to update different attributes of the database.
+
+(i) You need to draw a use-case diagram of the above-assumed application.
+
+(ii) You also need to draw two state chart diagrams representing various states of the general people and the admins. The listed features are only a bare minimum of the expected features of the application. You are welcome to incorporate other features as well.
+
+(b) Suggest two different readers of a requirements specification. Explain what they will look for in the specification.
+
+
+4
+(a) Coupling is a measure of the interdependence among components in software. Explain content coupling, control coupling and data coupling with examples.
+(b) Partitioning and layering are techniques to achieve low coupling. Explain how low coupling is achieved through partitioning and layering.
+(c) Which one of functional cohesion and procedural cohesion is more desirable and why?
+
+
+5
+(a) A group of diary and time management system is intended to support the timetabling of meetings and appointments across a group of co-workers. When an appointment is to be made that involves a number of people, the system finds a common slot in each of their diaries and arranges the appointment for that time. If no common slots are available, it interacts with the user to rearrange his or her personal diary to make room for the appointment.
+
+Identify possible entity, boundary and control objects including attributes and operations in the above system.
+
+(b) A book is composed of a number of parts, which in turn are composed of a number of chapters. Chapters are composed of sections. A book includes a publisher, publication date, and an ISB number. A part includes a title and a number. A chapter includes a title, a number, and an abstract. A section includes a title and a number.
+Draw a class diagram representing a book defined by the above statements.
+
+
+6
+(a) The essence of software testing is to determine a set of test cases for the item to be tested. Identify all the components of a test case.
+(b) In white box testing, correct working of code is tested. Explain branch coverage and path coverage with respect to white box testing with an example.
+(c) Differentiate between white box testing, grey box testing, and black box testing.
+
+7 
+(a) A project organization defines the relationships among resources, in particular the participants. Give communication structure among participants of a project.
+(b) Show associations between tasks, activities, roles, work products, and work packages.
+(c) A project consists of 5 activities. Let us consider the following table for starting finishing week for each activity of the project:
+Activity
+Al
+A2
+A3
+A4
+AS
+Latest Start (LS)
+Start of week 1
+Start of week 7
+Start of week 2
+Start of week 3
+Start of week 6
+Latest Finish (LF).
+End of week 5.
+End of week 7
+End of week 2
+End of week 5
+End of week 7
+Earliest Start (ES)
+Start of week 1.
+Start of week 6
+Start of week 1
+Start of week 2
+Start of week 6
+Find the critical path of the project and slack time of each activity.
+Earliest Finish (EF)
+End of week 5
+End of week 6
+End of week 1
+End of week 4.
+End of week 7
+15
+15
+1-
+
+25
+
+1
+(a) Describe briefly the function of each tasks of requirement engineering
+
+(b) Consider normal operation of an ATM for withdrawing cash. The scenarios are like; a customer inserts the card, enters his/her PIN, enters the amount, takes the card, and takes the money.
+
+Identify the main actors and give the use-cases.
+
+(c) The paragraph given below describes the functionality of an auction web-market with the following features: 
+Sellers publish offerings with product descriptions and sales conditions. Buyers search with a hierarchy of categories or with free-text keywords. Buyers can bid on offerings. Sellers can sell to highest bid or at fixed price. Sellers can sell to highest bid or at fixed price. Sellers can be business sellers or private persons. Buyers can rate setters.
+
+Identify functional and non-functional requirements of the system.
+
+
+(2) 
+Consider the operation of a vending machine: 
+The main function of a vending machine is to allow a customer to buy product(s) from the machine (candy, chocolate, soda, juice, etc.). When the customer wants to buy some of the products offered by the vending machine, he/she (inserts money into the machine selects one or more products, and the maching dispenses the selected product(s) to the customer, If the products cost less than the amount of money t customer put in the machine, the vending machine shall dispense change. Also, the vending machine needs to be restocked when it runs out of certain products. In addition, there must be a provision for a person (say, a collector) to collect money from the vending machine.
+explanation
+(a)
+(i) Identify the main actors.
+(ii) Draw the Use Case Diagram for the above scenario.
+(b) Create an UML activity diagram modeling a student applying for a job describing the following scenario: The student is writing a letter that is sent to the company. The company registers the application and a manager takes a decision if the student should be interviewed or not. If the student should be interviewed. the manager books a meeting time. In both cases, the student gets an e-mail with a response to the application. If the student is called to the interview, he will get the response if he got the job at this meeting. At the same time as the company manages the application, the student is taking a course at the university. If the student accepts the job he will start at the company after the course is finished. Divide the diagram into suitable swimlanes and give proper names.
+
+3 
+(a) A group of diary and time management system in intended to support the timetabling of meetings and appointments across a group of co-workers. When an appointment is to be made that involves a number of people, the system finds a common slot in each of their diaries and arranges the appointment for that time. If no common slots are available, it interacts with the user to rearrange his or her personal diary to make room for the appointment.
+
+Identify possible objects (including attributes and operations) in the above system and develop an object oriented design for them.
+
+(b) Consider the following scenario:
+
+A Blood Bank collects blood and tests all blood for blood type and potential viral agents. The results of these tests are sent to a processing officer. For each tested blood unit, he fills out a form that lists the blood unit number, the blood type, the date and the results of the test and this information is stored in a database. If the tests indicate that the blood may he contaminated with a viral agent, the blood unit is destroyed. This is indicated on the test form.
+
+A number of hospitals make request for blood to the hank. A processing officer prepares a listing for each hospital and the specific types of blood to supply to the hospital. If the blood for specific type is available. the bank prepares refrigerated containers of these units and distributes them to the hospital vans when they arrive to pick up their supply. When the order is filled, the lab technician signs the order and returns a copy to the processing officer. A copy of it travels with the blood to the requesting hospital. The final copy is kept in the Blood Bank records but discarded after one year
+
+Draw the context level DFD and Level-1 DFD.
+
+4
+
+(a)Discuss various types of coupling. What are the problems if coupling between two modules is high?
+(b) Give two arguments of why it is good to have high cohesion and low coupling amongst software modules
+(c) A system architecture is often described using multiple views. Why is this beneficial?
+
+
+5
+
+(a) Software testing activities boils down to selecting and executing test cases. Identify five key elements of a test case.
+
+(b) Design black box test suits for a function that checks whether a character or string upto ten characters is a palindrome.
+
+(c) Differentiate between white-box and black-box testing.
+
+6 
+(a) When and how often in the lifecycle does verificution and validation activities take place? Which members of the team are typically in charge of each one? Explain briefly.
+
+(b) Consider the flowgraph below describing a function with an input variable X and output variables X. Y and Z. Write down two sets of test cases. The first set of test cases shall guarantee that all statements are executed at least once, using a minimum number of test cases. The second set of test cases shall guarantee that all paths! of the flowgraph are traversed at least once.
+explain
+Start
+yes
+2X
+2
+no
+(c) Create a short risk management plan for a software development project. The plan should include one technology risk, one business risk, and one project risk. There are two strategies for accepting a risk, for each of the 3 risks, write down one example for each strategy
+7
+
+(a) Define role, task, work package and explain different communication strategies.
+(b) Give the basic principle for project scheduling. Why critical path and slack time is important in project
+scheduling
+
+(c) A problem estimates unadjusted function point as 18. value added factor as 0.87, and performance factor as 2. Find the effort in person days 20.
+
+
+
+24
+
+1 
+(a) Explain the terms actor, use-case and system boundary. [4]
+(b) Consider the normal operation of an ATM. The scenarios are like; a customer inserts the card, enters his/her PIN, enters the amount, takes the card, and takes/deposits/transfers
+the money. 
+Identify the main actors and give the use-cases.[12]
+
+(c) Draw one use-case diagram of a web-based bookstore, for instance Amazon, with two different actors and two different use-cases. Both actors shall be humans and have an
+association to at least one use-case.[7.33]
+
+2 
+(a) 
+
+(i) What aspects lead to the success of Agile methods? Explain with the basis of its principles.
+(ii) What are the problems with Agile methods?
+(iii) How does Extreme Programming relate to Agile methods? [8+4+4]
+
+(b) Discuss the five categories of the stakeholders with respect to effective software project management. [7.33]
+
+3 
+(a) Give two reasons why it is a good idea to classify and separate functional requirements and non-functional requirements in a requirements specification.[4]
+(b) For the following description of a system, identify functional and non-functional requirement of the system:
+A user can request a quiz in the system. The system picks a set of questions from its database and composes them together to make a quiz. It rates the user’s answers, and
+gives hints if the user requests it. In addition to users, we also have tutors who provide questions and hints. And also examiners who must certify questions to make sure they are not too trivial, and that they are sensible.[12]
+(c) Suggest two different readers of a Requirement Analysis document. Explain what they will look for in the specification
+
+4
+(a) Draw a class diagram that represents a book which is defined by the following
+statement:
+“A book is composed of a number of parts, which in turn are composed of a
+number of chapters. Chapters are composed of sections.” 
+Draw the class diagram focusing only on classes and relationships. [4]
+
+(b) Create a UML activity diagram modeling a student applying for a job that is described by the following scenario:
+		The student is writing a letter that is sent to a company. The company registers the
+		application and a manager takes a decision if the student should be interviewed or not. If
+		the student should be interviewed, the manager books a meeting time. In both cases, the
+		student gets an email with a response to the application. When the student is called for
+		an interview, he may or may not get the job based on the interview. If he gets the job at
+		this meeting, he will get a response after the meeting. At the same time as the company
+		manages the application, the student is taking a course at the university. If the student
+		accepts the job he will start at the company after the course is finished.
+		Divide the diagram into suitable swim-lanes and give proper names. [12]
+		
+(c) Draw a context diagram for the following system:
+		A store is doing business by selling paints and hardware items. A number of reputed
+		companies supply items to the store. New suppliers can also register with the store after
+		providing necessary details. The customer can place an order with the shop
+		telephonically or physically. In case items are not available, customers are informed.
+		The details of every new customer is stored in the company’s database for future
+		reference. Regular customers are offered discounts. Additional details of daily
+		transactions are also maintained.[7.33]
+		
+5
+(a) Software testing activities boil down to selecting and executing test cases. Identify three key elements of a test case.[6]
+(b) Explain briefly the purpose of Black-Box and White-Box testing techniques. Why do we need a separate operational environment and a test environment? [5.33]
+(c) Consider the following program segment:
+		a = b;
+		if (c > 0){
+			a++; 
+		}
+		else {
+			a=2*a;
+			if (d <= 10){
+				b = 5*d; 
+			}
+			else {
+				b = 3*d+5; 
+			}
+		}
+		e = a + b;
+		
+Give a control flow graph for this program fragment and give branch coverage and path
+coverage with node numbering of your choice.
