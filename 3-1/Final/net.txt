@@ -1,0 +1,79 @@
+24
+
+1
+
+(a) "Circuit switching pre-allocates transmission link capacity regardless of user demand, with allocated but unneeded link time going unused". Explain this statement and justify the effectiveness of packet switching to overcome this problem.
+
+(b) In the Internet architecture, access ISPs provide connections to the end system users in residential and office areas. Each access ISP typically gets connected to the outer world through one or more global transit ISPs. Do you think introducing the concept of multi-homing for connecting access ISPs to transit ISPs would be beneficial for the users? Explain the reasons behind your answer. global
+
+(c) Consider two hosts, A and B, connected by a single link of rate R bps. Suppose that the two hosts are separated by m meters, and suppose the propagation speed along the link is s meters/sec. Host A is to send a packet of size 2. bits to Host B.
+(1) Ignoring processing and queuing delays, obtain an expression for the end-to-end delay.
+(ii) Suppose Host A begins to transmit the packet at time 10. At time 1 do where is the last bit
+(iii) of the packet? Suppose d is greater than darans. At time 1 draws where is the first bit of the packet?
+(iv) Supposes 2.5 x 10, L1500 bytes, and R = 10 Mbps. Find the distance m so that drop equals diram
+
+(d) A socket is an Application Programming Interface (API). An application developer controls everything on the socket's application-layer side but has little control of its transport-layer side. Draw a figure representing this interface, identify the parameters involved on both sides, and explain the principle of client-server communication using sockets.
+
+2 
+
+(a) Consider an HTML-based web page in a server containing a large video clip near the top of the page and many small objects below the video. Suppose a single TCP connection of HTTP/1.0 has been established to transfer the contents from the server to a client.
+(i) Describe the problem that will be encountered by the small objects.
+(ii) Does HTTP/1.1 support addressing this problem by opening multiple parallel TCP
+connections? Explain. (iii) Describe how frame-interleaving of HTTP/2.0 can help to solve this problem.
+
+(b) Suppose Afsana is connected with the mail server mail.cse.du.ac.bd and she wants to send an email to her friend Barira who is attached to mail.egineering.mit.edu. Discuss the operation principles of the protocols involved in this communication with the help of necessary figures.
+
+(c) Is FTP a stateful protocol? Justify your answer.
+
+(d) How can CNAME records of the DNS system help to distribute loads among many servers of Gmail?Briefly explain.
+
+3 
+
+(a) The key limitation of traditional HTTP streaming protocol is that it does not care about the amount of bandwidth available to a client, both across different clients and also over time with the same client. This observation has given birth to a new protocol, namely DASH (Dynamic Adaptive Streaming Over HTTP Protocol). Describe the working principle of DASH protocol and its advantages.
+
+(b) Suppose Host B receives two TCP segments back-to-back from Host A over a TCP connection. The first segment has the sequence number 1580 and the second has the sequence number 3760. 
+(i) Investigate the amount of data sent in the first segment.
+(ii) Suppose the first segment is lost but the second segment arrives at B. In the acknowledgement that Host B sends to Host A, analyze the acknowledgement number in the second segment with proper justifications and a suitable diagram.
+
+(c) Suppose that five measured SampleRTT values are 106 ms, 120 ms, 140 ms, 90 ms, and 115 ms. Compute the EstimatedRTT after each of these SampleRTT values is obtained, using a value of a 0.125 and assuming that the initial value of EstimatedRTT was 100 ms. Compute also the DevRTT after each sample is obtained, assuming a value of ẞ 0.25 and assuming the initial value of DevRTT was 5 ms. Last, compute the TCP TimeoutInterval after each of these samples is obtained.
+
+(d) TCP and UDP use I's complement scheme for computing checksum. With this scheme, is it possible that a 1-bit error will go undetected? How about a 2-bit error? Analyze with proper examples.
+
+4 
+(a) The network layer activities can be broadly divided into the data plane and control plane. List down their specific functionalities.
+
+(b) Suppose you purchase a wireless router and connect it to your cable modem. Also, suppose that your ISP dynamically assigns your wireless router one IP address and you have five hosts at home that use 802.11 to wirelessly connect to your wireless router. How are IP addresses assigned to the devices? Does the wireless router use NAT? Why or why not?
+
+(c) Compare and contrast the Ipv4 and the Ipv6 header fields. Discuss the effectiveness of the new fields in the Ipv6 header.
+
+(d) Define generalized forwarding adopted by Software-Defined Networking. How does this differ from destination-based forwarding? Explain.
+
+(e) Write down the differences between RR and WFQ packet scheduling. Is there any case where RR and WFQ will behave exactly the same? Explain with the help of an example.
+
+5 
+(a) Compare and contrast link state and distance vector routing algorithms.
+
+(b) Define an Autonomous System (AS) of the Internet. Does it reduce the route computation complexity of the Internet? Justify your answer.
+
+(c) In BGP, a prefix along with its attributes is called a route. In determining the best route, the BGP of a router exploits a set of attributes including AS-PATH, NEXT-HOP, and LOCAL PREFERENCE. For any given destination prefix, the input to BGP's route selection algorithm is the set of all routes to that prefix that have been learned and accepted by the router. Given that there are two or more routes to the same pretis, write down the four steps that are followed to find out the best one.
+
+(d) Figure I shows six interconnected ASs, where W, X, and Y are access ISPs and A, B, and C are backbonė provider networks. All traffic entering an ISP access network must be destined for that network, and all traffic leaving an ISP access network must have eriginated in that network.
+
+(i) When implementing BGP routing policy, how will X be preventing from forwarding traffic between B and C?
+Figure-1
+(ii) How does B implement its routing policy so that it forwards traffic from X toward W and restricts the same from C?
+
+6 
+(a) Define the hidden terminal problem. List down its major causes. Discuss one way to address it.
+(b) With the help of the necessary figure(s), illustrate the role of binary exponential backoff in reducing collision in the CSMA/CA wireless networks.
+(c) Describe the two possible sleep modes of a 4G/5G mobile device. In each of these sleep modes, will the mobile device remain associated with the same base station between the time it goes to sleep and the time it wakes up and first sends/receives a new datagram?
+(d) State role of the Mobility Management Entity (MME) in 4G/5G cellular architecture. With which other 4G/5G network elements does it directly communicate with in the control plane? Describe.
+
+7
+(a) Suppose Alice has a message that she is ready to send to anyone who asks, but each wants to be sure of 13 the integrity of the message. In this context, do you think a MAC based or a digital-signature-based integrity scheme is more suitable? Why?
+
+(b) Suppose Bob initiates a TCP connection to Trudy who is pretending to be Alice. During the handshake, [ Trudy sends Bob Alice's certificate. In what step of the TLS handshake algorithm will Bob discover that he is not communicating with Alice? Briefly explain.
+
+(c) Consider RSA with p5 and q11. Find n and z. Let e be 3. Why is this an acceptable choice for e? 14 Find d such that de 1 (mod z) and d<160. Encrypt the message m8 using the key (n, e).
+
+(d) In the BitTorrent P2P file distribution protocol, the seed breaks the file into blocks, and the peers 14 redistribute the blocks to each other. Without any protection, an attacker can easily wreak havoc in a torrent by masquerading as a benevolent peer and sending bogus blocks to a small subset of peers in the torrent. These unsuspecting peers then redistribute the bogus blocks to other peers, which in turn redistribute the bogus blocks to even more peers. Thus, it is critical for BitTorrent to have a mechanism that allows a peer to verify the integrity of a block, so that it doesn't redistribute bogus blocks. Assume that when a peer joins a torrent, it initially gets a torrent file from a fully trusted source. Describe a simple scheme that allows peers to verify the integrity of blocks.
